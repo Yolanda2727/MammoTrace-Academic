@@ -1,0 +1,2 @@
+# Public source profile: UI, report parsing, CBIS audit/preflight, and educational guidance.
+-r requirements-base.txt

@@ -1,0 +1,11 @@
+MAMMOTRACE ACADEMIC 4.1.0 — EDICIÓN PÚBLICA SIN PESOS
+
+1. Lea README.md y docs/SEGURIDAD_Y_LIMITES.md.
+2. Use Python 3.13 y un entorno virtual nuevo.
+3. Instale requirements.txt y ejecute scripts/check_environment.py.
+4. Genere los ejemplos sintéticos con: python scripts/build_examples.py
+5. Inicie: python -m streamlit run streamlit_app.py
+6. Para la auditoría CBIS completa, obtenga los metadatos autorizados desde la fuente original y siga data/cbis/README.md.
+
+Esta edición no incluye pesos históricos, no ejecuta inferencia neuronal de sustitución y no redistribuye DICOM privados.
+Los resultados de ingeniería no constituyen validación clínica, diagnóstico, triaje ni certificación de un tiempo seguro de espera.

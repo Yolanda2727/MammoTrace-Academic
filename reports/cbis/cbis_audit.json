@@ -1,0 +1,173 @@
+{
+  "version": "4.1.0",
+  "annotation_rows": 3568,
+  "subjects": 1566,
+  "full_image_series": 3103,
+  "lesion_keys": 2050,
+  "pathology_counts": {
+    "MALIGNANT": 1457,
+    "BENIGN": 1429,
+    "BENIGN_WITHOUT_CALLBACK": 682
+  },
+  "source_counts": [
+    {
+      "source": "calc_case_description_train_set.csv",
+      "rows": 1546,
+      "subjects": 602,
+      "MALIGNANT": 544,
+      "BENIGN": 528,
+      "BENIGN_WITHOUT_CALLBACK": 474
+    },
+    {
+      "source": "calc_case_description_test_set.csv",
+      "rows": 326,
+      "subjects": 151,
+      "BENIGN": 130,
+      "BENIGN_WITHOUT_CALLBACK": 67,
+      "MALIGNANT": 129
+    },
+    {
+      "source": "mass_case_description_train_set.csv",
+      "rows": 1318,
+      "subjects": 691,
+      "MALIGNANT": 637,
+      "BENIGN": 577,
+      "BENIGN_WITHOUT_CALLBACK": 104
+    },
+    {
+      "source": "mass_case_description_test_set.csv",
+      "rows": 378,
+      "subjects": 201,
+      "MALIGNANT": 147,
+      "BENIGN": 194,
+      "BENIGN_WITHOUT_CALLBACK": 37
+    }
+  ],
+  "official_train_subjects": 1248,
+  "official_test_subjects": 349,
+  "overlap_subjects": [
+    "P_00016",
+    "P_00041",
+    "P_00159",
+    "P_00394",
+    "P_00495",
+    "P_00510",
+    "P_00591",
+    "P_00601",
+    "P_00639",
+    "P_00652",
+    "P_00678",
+    "P_00723",
+    "P_00753",
+    "P_00882",
+    "P_00906",
+    "P_00924",
+    "P_00969",
+    "P_01108",
+    "P_01152",
+    "P_01179",
+    "P_01237",
+    "P_01307",
+    "P_01365",
+    "P_01467",
+    "P_01566",
+    "P_01605",
+    "P_01621",
+    "P_01635",
+    "P_01741",
+    "P_01803",
+    "P_01883"
+  ],
+  "train_rows_removed_holdout_priority": 83,
+  "mixed_binary_image_groups": 17,
+  "mixed_binary_lesion_groups": 3,
+  "normal_cohort_present": false,
+  "diagnostic_metrics_calculated": false,
+  "cross_source_subject_overlap": {
+    "calc_case_description_train_set.csv / calc_case_description_test_set.csv": 0,
+    "calc_case_description_train_set.csv / mass_case_description_train_set.csv": 45,
+    "calc_case_description_train_set.csv / mass_case_description_test_set.csv": 18,
+    "calc_case_description_test_set.csv / mass_case_description_train_set.csv": 13,
+    "calc_case_description_test_set.csv / mass_case_description_test_set.csv": 3,
+    "mass_case_description_train_set.csv / mass_case_description_test_set.csv": 0
+  },
+  "manifest": {
+    "series": 6775,
+    "referenced_series": 6775,
+    "referenced_missing": 0,
+    "manifest_not_referenced": 0
+  },
+  "digest": {
+    "rows": 6775,
+    "unique_series": 6775,
+    "sum_image_count": 10239,
+    "bytes": 163512966728,
+    "referenced_missing": 0,
+    "series_descriptions": {
+      "ROI mask images": 3565,
+      "cropped images": 107,
+      "full mammogram images": 3103
+    },
+    "manifest_missing": 0,
+    "digest_not_in_manifest": 0
+  },
+  "download_log": {
+    "series": 544,
+    "declared_instances": 837,
+    "full_image_series": 251,
+    "referenced_series_present": 544,
+    "annotation_rows_full_image_logged": 293,
+    "log_is_pixel_verification": false
+  },
+  "metadata_decimal_repairs": 544,
+  "partitions": {
+    "train": {
+      "rows": 2240,
+      "subjects": 974
+    },
+    "validation": {
+      "rows": 541,
+      "subjects": 243
+    },
+    "test": {
+      "rows": 704,
+      "subjects": 349
+    },
+    "excluded_overlap": {
+      "rows": 83,
+      "subjects": 31
+    }
+  },
+  "image_inventory": {
+    "train": {
+      "series": 1934,
+      "eligible_series": 1927
+    },
+    "validation": {
+      "series": 460,
+      "eligible_series": 454
+    },
+    "test": {
+      "series": 645,
+      "eligible_series": 639
+    },
+    "excluded_overlap": {
+      "series": 64,
+      "eligible_series": 0
+    },
+    "ambiguous": {
+      "series": 0,
+      "eligible_series": 0
+    }
+  },
+  "inputs_sha256": {
+    "calc_case_description_test_set.csv": "03a2f72efb6ed29f417e07f4598950e6a1e02e6b11250ff516ebe7924ace3689",
+    "calc_case_description_train_set.csv": "3c7b07e8202f66709f446b9695e96c5d17484a65fda6a24d0170a0c1b81d56e3",
+    "digest_export.csv": "5aafbde3fd2f05c1f7903203de329a4926c16f2b9a0f20bf14ceb9a007ee67ef",
+    "download_manifest.tcia": "a01423b91bc20b5b2cb87b70deeec626f7416baeddfd30548529d7bf2431233c",
+    "mass_case_description_test_set.csv": "60f0b4504ec024106bbdd1555030d220163ea9da0ea4688473a4c9c3e8ab0457",
+    "mass_case_description_train_set.csv": "a4bcc1c32bfd040212737e6e8c304819334abe717cfefff56431dc50ae6db723",
+    "metadata_drive_original.csv": "138ed6b380b92d0d1d0d319f6c22ad967867750f742201cd520f5ec6c42e2b79",
+    "nbia_digest_original.xlsx": "a3b4abe764f73627d93b816b3c0f0c87320714d6887c7f5f917dbbe90e979d9b"
+  }
+}

@@ -1,0 +1,41 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.0.2, pluggy-1.6.0
+rootdir: /mnt/data/work41/MammoTrace_Academic_4_1_CBIS
+configfile: pytest.ini
+plugins: anyio-4.13.0, ddtrace-4.4.0, Faker-40.1.2, asyncio-1.3.0, cov-7.0.0, json-report-1.5.0, metadata-3.1.1
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 340 items
+
+tests/test_cbis41.py ................................................... [ 15%]
+..                                                                       [ 15%]
+tests/test_data_evaluation.py .......................................... [ 27%]
+....                                                                     [ 29%]
+tests/test_documents.py .......................................          [ 40%]
+tests/test_guidance.py ....................................              [ 51%]
+tests/test_images.py ................................................    [ 65%]
+tests/test_legacy_dicom.py ............................................. [ 78%]
+............                                                             [ 82%]
+tests/test_narrative_exports.py .........................                [ 89%]
+tests/test_release_examples.py ...........                               [ 92%]
+tests/test_session.py ...............                                    [ 97%]
+tests/test_xai.py ..........                                             [100%]
+
+=============================== warnings summary ===============================
+tests/test_xai.py::test_original_weights_hash
+tests/test_xai.py::test_original_weights_hash
+tests/test_xai.py::test_original_weights_hash
+tests/test_xai.py::test_original_weights_hash
+  /opt/pyvenv/lib/python3.13/site-packages/keras/src/backend/common/variables.py:248: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    return np.array(self)
+
+tests/test_xai.py: 21 warnings
+  /opt/pyvenv/lib/python3.13/site-packages/keras/src/backend/torch/core.py:253: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    return np.array(x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+- generated xml file: /mnt/data/work41/MammoTrace_Academic_4_1_CBIS/reports/junit_4_1.xml -
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Coverage JSON written to file reports/coverage_4_1.json
+====================== 340 passed, 25 warnings in 20.17s =======================

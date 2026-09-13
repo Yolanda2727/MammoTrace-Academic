@@ -1,0 +1,9 @@
+{
+  "public_subject": "P_00038",
+  "reason": "reader integration and manuscript example",
+  "files_inspected": 3,
+  "full_views_inspected": 1,
+  "no_model_selection_or_clinical_evaluation": true,
+  "official_test_membership_preserved": true,
+  "note": "Do not describe this subject as unseen by developers; exclude it from a future strictly blinded subset or explicitly report exposure."
+}

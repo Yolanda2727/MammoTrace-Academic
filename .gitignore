@@ -1,0 +1,52 @@
+# Environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+.DS_Store
+Thumbs.db
+
+# Credentials / secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+credentials*
+*service-account*.json
+
+# User/patient material
+uploads/
+private_data/
+patient_reports/
+training_runs/
+runs/
+*.dcm
+*.dicom
+
+# Model binaries / private historical weights
+models/
+*.h5
+*.keras
+*.bin
+*.assembling
+
+# Third-party CBIS data are obtained from the original source.
+data/cbis/*
+!data/cbis/README.md
+
+# Generated synthetic examples / reports
+examples/*.png
+examples/*.jpg
+examples/*.jpeg
+examples/*.bmp
+examples/*.tiff
+examples/*.webp
+examples/*.pdf
+examples/*.docx
+examples/*.dcm
+examples/*.dicom
+reports/ci_*.xml

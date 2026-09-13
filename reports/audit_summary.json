@@ -1,0 +1,47 @@
+{
+  "version": "4.1.0",
+  "scope": "Academic research software; not clinical validation",
+  "core_tests": {
+    "passed": 340,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "warnings": 25
+  },
+  "coverage": {
+    "covered_statements": 1226,
+    "total_statements": 1732,
+    "percent": 70.79,
+    "packages": [
+      "mammoapp",
+      "mammotrace"
+    ],
+    "branch_coverage": false
+  },
+  "public_data": {
+    "annotation_rows": 3568,
+    "subjects": 1566,
+    "train_test_overlap_subjects": 31,
+    "excluded_train_rows": 83,
+    "manifest_series": 6775,
+    "download_log_series": 544,
+    "actually_read_instances": 3,
+    "actually_read_subjects": 1
+  },
+  "executed": [
+    "core regression suite",
+    "CBIS source audit",
+    "three public DICOM reads",
+    "indexing and training preflight"
+  ],
+  "not_executed": [
+    "native Streamlit",
+    "browser",
+    "cloud deployment",
+    "Windows installation",
+    "external AI live call",
+    "CBIS model training",
+    "clinical evaluation"
+  ],
+  "legacy_weights_retrained": false
+}

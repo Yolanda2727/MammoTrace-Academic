@@ -1,0 +1,13 @@
+image_id,patient_id,label,p_normal,p_benigno,p_maligno,label_source
+SYN_I000,SYN_P000,normal,0.8,0.1,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I001,SYN_P001,benigno,0.1,0.8,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I002,SYN_P002,maligno,0.8,0.1,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I003,SYN_P003,normal,0.8,0.1,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I004,SYN_P004,benigno,0.1,0.8,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I005,SYN_P005,maligno,0.1,0.1,0.8,synthetic_arithmetic_example_not_model_output
+SYN_I006,SYN_P006,normal,0.1,0.8,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I007,SYN_P007,benigno,0.1,0.8,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I008,SYN_P008,maligno,0.1,0.1,0.8,synthetic_arithmetic_example_not_model_output
+SYN_I009,SYN_P009,normal,0.8,0.1,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I010,SYN_P010,benigno,0.1,0.8,0.1,synthetic_arithmetic_example_not_model_output
+SYN_I011,SYN_P011,maligno,0.1,0.1,0.8,synthetic_arithmetic_example_not_model_output

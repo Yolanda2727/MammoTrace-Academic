@@ -1,0 +1,4 @@
+EJEMPLO ACADÉMICO FICTICIO.
+Estudio anterior: BI-RADS 2.
+Conclusión del estudio actual: BI-RADS 5.
+Se recomienda evaluación diagnóstica y coordinación con el equipo tratante.

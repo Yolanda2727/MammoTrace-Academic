@@ -1,0 +1,21 @@
+[server]
+maxUploadSize = 64
+maxMessageSize = 128
+headless = true
+fileWatcherType = "none"
+enableXsrfProtection = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = false
+
+[theme]
+base = "light"
+primaryColor = "#196475"
+backgroundColor = "#F5F7FA"
+secondaryBackgroundColor = "#EDF2F6"
+textColor = "#17263B"
+font = "sans serif"

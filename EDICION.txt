@@ -1,0 +1,4 @@
+PUBLICA_SIN_PESOS
+MammoTrace Academic 4.1.0 public source-code release.
+Legacy neural-network weights are intentionally excluded.
+Third-party bulk CBIS-DDSM metadata and DICOM pixels are not redistributed in this source tree.

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Cite the exact version used and describe its academic, non-clinical scope."
+title: "MammoTrace Academic: traceable CBIS-DDSM integration, experimental AI separation and educational guidance"
+version: 4.1.0
+date-released: '2026-09-13'
+type: software
+repository-code: "https://github.com/Yolanda2727/MammoTrace-Academic"
+authors:
+  - family-names: "Díaz Pérez"
+    given-names: "Anderson"
+    orcid: "https://orcid.org/0000-0003-2448-0953"
+keywords:
+  - mammography
+  - CBIS-DDSM
+  - research software
+  - data leakage
+  - explainable artificial intelligence
+  - reproducibility
+abstract: "Academic research software for traceable CBIS-DDSM preparation, report comprehension and explicitly separated experimental AI. Version 4.1.0 is not clinically validated diagnostic or triage software."

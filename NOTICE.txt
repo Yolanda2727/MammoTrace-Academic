@@ -1,0 +1,10 @@
+MammoTrace Academic 4.1.0 — public source-code release
+Copyright © 2026 Anderson Díaz Pérez.
+
+This repository preserves the PUBLICA_SIN_PESOS source-code edition. Historical neural-network weight fragments are intentionally excluded and are not authorized for public redistribution by this release.
+
+No clinical license, medical-device authorization, diagnostic approval, or validated triage claim is granted. Engineering tests, data reconciliation, and reproducibility controls do not establish clinical safety or effectiveness.
+
+CBIS-DDSM dataset references and display derivatives are attributed to Sawyer-Lee et al., The Cancer Imaging Archive (TCIA), DOI 10.7937/K9/TCIA.2016.7O02S9CY. The audited metadata snapshot recorded CC BY 3.0 for those dataset materials. Dataset permissions do not grant a software license for MammoTrace or rights over historical model weights.
+
+No open-source software license is granted by publication of this repository at this stage. Unless the rights holder later adds a separate LICENSE file, the software remains subject to applicable copyright law. Third-party dependencies retain their own licenses.

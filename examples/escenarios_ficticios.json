@@ -1,0 +1,146 @@
+[
+  {
+    "case_id": "ED01",
+    "title": "Evaluación incompleta · BI-RADS 0",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": "0",
+    "symptoms": {
+      "emergency": "No",
+      "red_hot": "No",
+      "fever": "No",
+      "new_lump": "No",
+      "bloody_discharge": "No",
+      "skin_nipple": "No",
+      "worsening": "No"
+    },
+    "expected_educational_level": 1,
+    "lesson": "Una evaluación incompleta no es un resultado negativo."
+  },
+  {
+    "case_id": "ED02",
+    "title": "Vigilancia · BI-RADS 3",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": "3",
+    "symptoms": {
+      "emergency": "No",
+      "red_hot": "No",
+      "fever": "No",
+      "new_lump": "No",
+      "bloody_discharge": "No",
+      "skin_nipple": "No",
+      "worsening": "No"
+    },
+    "expected_educational_level": 1,
+    "lesson": "El intervalo se lee del informe; no lo decide el clasificador."
+  },
+  {
+    "case_id": "ED03",
+    "title": "Sospecha que requiere estudio · BI-RADS 4A",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": "4A",
+    "symptoms": {
+      "emergency": "No",
+      "red_hot": "No",
+      "fever": "No",
+      "new_lump": "No",
+      "bloody_discharge": "No",
+      "skin_nipple": "No",
+      "worsening": "No"
+    },
+    "expected_educational_level": 2,
+    "lesson": "Sospecha radiológica no significa confirmación de cáncer."
+  },
+  {
+    "case_id": "ED04",
+    "title": "Informe benigno, pero bulto nuevo",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": "2",
+    "symptoms": {
+      "emergency": "No",
+      "red_hot": "No",
+      "fever": "No",
+      "new_lump": "Sí",
+      "bloody_discharge": "No",
+      "skin_nipple": "No",
+      "worsening": "No"
+    },
+    "expected_educational_level": 2,
+    "lesson": "Un síntoma nuevo no se descarta por un informe benigno."
+  },
+  {
+    "case_id": "ED05",
+    "title": "Inflamación y fiebre durante la espera",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": "2",
+    "symptoms": {
+      "emergency": "No",
+      "red_hot": "Sí",
+      "fever": "Sí",
+      "new_lump": "No",
+      "bloody_discharge": "No",
+      "skin_nipple": "No",
+      "worsening": "No"
+    },
+    "expected_educational_level": 3,
+    "lesson": "La prioridad educativa se activa por los síntomas, no por la imagen."
+  },
+  {
+    "case_id": "ED06",
+    "title": "Deterioro intenso · no esperar al software",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": null,
+    "symptoms": {
+      "emergency": "Sí",
+      "red_hot": "No",
+      "fever": "No",
+      "new_lump": "No",
+      "bloody_discharge": "No",
+      "skin_nipple": "No",
+      "worsening": "No"
+    },
+    "expected_educational_level": 4,
+    "lesson": "Una señal importante de deterioro requiere ayuda sin esperar la lectura."
+  },
+  {
+    "case_id": "ED07",
+    "title": "Dos menciones · separar previo y actual",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": "5",
+    "symptoms": {
+      "emergency": "No",
+      "red_hot": "No",
+      "fever": "No",
+      "new_lump": "No",
+      "bloody_discharge": "No",
+      "skin_nipple": "No",
+      "worsening": "No"
+    },
+    "expected_educational_level": 2,
+    "lesson": "El usuario revisa la conclusión actual; el programa no selecciona el máximo."
+  },
+  {
+    "case_id": "ED08",
+    "title": "Sin informe legible · incertidumbre explícita",
+    "synthetic_only": true,
+    "image_has_no_pathology_label": true,
+    "category_in_fictitious_report": null,
+    "symptoms": {
+      "emergency": "No sé / no evaluado",
+      "red_hot": "No sé / no evaluado",
+      "fever": "No sé / no evaluado",
+      "new_lump": "No sé / no evaluado",
+      "bloody_discharge": "No sé / no evaluado",
+      "skin_nipple": "No sé / no evaluado",
+      "worsening": "No sé / no evaluado"
+    },
+    "expected_educational_level": 0,
+    "lesson": "Lo que no se conoce no debe presentarse como ausencia de riesgo."
+  }
+]

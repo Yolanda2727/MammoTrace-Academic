@@ -1,0 +1,19 @@
+........................................................................ [ 21%]
+........................................................................ [ 42%]
+........................................................................ [ 63%]
+........................................................................ [ 84%]
+....................................................                     [100%]
+=============================== warnings summary ===============================
+tests/test_xai.py::test_original_weights_hash
+tests/test_xai.py::test_original_weights_hash
+tests/test_xai.py::test_original_weights_hash
+tests/test_xai.py::test_original_weights_hash
+  /opt/pyvenv/lib/python3.13/site-packages/keras/src/backend/common/variables.py:248: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    return np.array(self)
+
+tests/test_xai.py: 21 warnings
+  /opt/pyvenv/lib/python3.13/site-packages/keras/src/backend/torch/core.py:253: DeprecationWarning: __array__ implementation doesn't accept a copy keyword, so passing copy=False failed. __array__ must implement 'dtype' and 'copy' keyword arguments. To learn more, see the migration guide https://numpy.org/devdocs/numpy_2_0_migration_guide.html#adapting-to-changes-in-the-copy-keyword
+    return np.array(x)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+340 passed, 25 warnings in 16.64s
